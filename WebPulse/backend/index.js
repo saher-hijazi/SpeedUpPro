@@ -8,9 +8,9 @@ app.use(bodyParser.json());
 // إعداد الاتصال بقاعدة البيانات
 const pool = new Pool({
   user: 'postgres',
-  host: 'localhost',
+  host: 'saher',
   database: 'webpulse_db',
-  password: 'yourpassword',
+  password: 'saher',
   port: 5432,
 });
 
